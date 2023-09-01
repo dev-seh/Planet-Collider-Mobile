@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7110937117227358633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4917017905941035043}
+  - component: {fileID: 4707857191809556412}
+  m_Layer: 0
+  m_Name: AsteroidSpawner 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4917017905941035043
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7110937117227358633}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4707857191809556412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7110937117227358633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11ca3881eddd6bc45a4609f7d0de6a94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabToSpawn: {fileID: 4470154074150258076, guid: e8ac443a2267a6245a675a54e7c00ba7,
+    type: 3}
+  spawnInterval: 5
+  objectMinX: -8
+  objectMaxX: 9
+  objectY: 4
+  objectSprites:
+  - {fileID: -2083161047046303497, guid: 49ab080fa2ca9ad4c91f05ab5a77b81e, type: 3}
+  - {fileID: -2565736857277755999, guid: 49ab080fa2ca9ad4c91f05ab5a77b81e, type: 3}
+  - {fileID: -5173245514744237228, guid: 49ab080fa2ca9ad4c91f05ab5a77b81e, type: 3}
